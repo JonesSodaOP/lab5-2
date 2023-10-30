@@ -26,7 +26,7 @@ cin >> average;
 if (average >100 || average <0)
 cout << "Invalid data." << endl;
 // First statement 
-else if (average >= 90)
+else if (average >= 90) // else if statement for average 90 or above
 cout << "You get an A!" << endl;
 	// Second statement
 else if (average >= 80)
